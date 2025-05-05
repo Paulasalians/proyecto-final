@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #03045e;
+    color: #ade8f4;
+  }
+  
+  .hero-header {
+    height: 100vh;
+    background: linear-gradient(to right, #6a040f, #e85d04);
+    color:#370617;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #370617;
+  }
+  
+  .btn {
+    background-color: #e85d04;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #720026;
+  }
+  
+.artistas{
+  padding: 10px 10px;
+  text-align: center;
+ background: linear-gradient(to right, #caf0f8, #03045e);
+  color: #03045e;
+}
+
+.artistas-section {
+  padding: 90px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #caf0f8, #03045e);
+}
+
+.artistas-section h2{
+  margin-bottom: 40px;
+}
+
+.artistas-section .artistas{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.artistas-section .artistas > div {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.artistas img{
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 400px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.artistas img:hover{
+  transform: scale(1.1);
+}
+
+h2{
+  text-align: center;
+}
+
+.formulario{
+  text-align: right;
+}

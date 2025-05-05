@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'rottuphes'; /* Nombre personalizado */
+    src: url('../fonts/rottuphes.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'relationship'; /* Nombre personalizado */
+    src: url('../fonts/relationship.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.titulo{
+font-family: 'rottuphes';
+}
+
+.notitulo{
+    font-family: 'relationship';
+}
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color:
+#650073;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+gap: 20px;
+}
+
+.div1 {
+grid-column: 3 / 4;
+grid-row: 1 / 4;
+}
+
+.div2 {
+grid-column: 2 / 3;
+grid-row: 3 / 4;
+}
+
+.div3 {
+margin: 20px;
+grid-column: 1 / 2;
+grid-row: 2 / 4;
+}
+
+.div4 {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+.div5 {
+grid-column: 2 / 3;
+grid-row: 1 / 2;
+}
+
+.div6 {
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+.div1 img{
+height: 95%;
+width: 95%;
+transition: transform 0.3s ease;
+}
+
+.div6 img{
+height: 200px;
+width: 200px;
+transition: transform 0.3s ease;
+
+}
+.div4 video{
+height: 230px;
+width: 300px;
+}
+
+.div3 img{
+height: 175px;
+width: 175px;
+border-radius: 10%;
+transition: transform 0.3s ease;
+box-shadow: 4px 4px 10px black;
+}
+
+h2{
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+img:hover{
+transform: scale(1.1);
+}
+
+.imgtext{
+position: relative;
+display: inline-block;
+border-radius: 10%;
+overflow: hidden;
+}
+
+
+.imgtext .overlay{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5); 
+color:aquamarine;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+opacity: 0;
+transition: opacity 0.3s ease;
+text-align: center;
+border-radius: 10%;
+}
+
+.imgtext:hover .overlay{
+opacity: 1;
+}
+
+.imgtext:hover img{
+transform: scale(1.1);
+}

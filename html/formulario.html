@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+    <div class="volver">
+        <a style="color: aquamarine; font-family: 'Times New Roman', Times, serif;" href="../index.html">Volver</a>
+        </div>
+
+        <div class="formularioCaja">
+    <div class="titulo">
+    <h1>¿Qué cantante deberí
+        as de escuchar?</h1>
+    </div>
+
+    <form id="formulario">
+        <div class="pregunta">
+            <p>1.¿Qué buscas en una canción?</p>
+<label> <input type="radio" name="p1" value="2">Letras profundas y sentimentales</label> <br>
+<label> <input type="radio" name="p1" value="4">Energía y movimiento</label> <br>
+<label> <input type="radio" name="p1" value="6">Experimentación pop y creatividad</label><br>
+        </div>
+
+        <div class="pregunta">
+            <p>2.¿Cuál sería tu plan perfecto un sábado por la noche?</p>
+<label> <input type="radio" name="p2" value="2">Coche, miradores, y buena conversación</label> <br>
+<label> <input type="radio" name="p2" value="4">Fiesta, bailar y luces de neón</label> <br>
+<label> <input type="radio" name="p2" value="5">Festival, futurismo y baile sin parar</label> <br>
+        </div>
+
+        <div class="pregunta">
+        <p>3.¿Qué estilo te define más?</p>
+<label> <input type="radio" name="p3" value="2">Chandal y calle</label> <br>
+<label> <input type="radio" name="p3" value="4">Brillo y actitud</label> <br>
+<label> <input type="radio" name="p3" value="6">Moda y extravagancia</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>4.¿Qué idioma prefieres en la música?</p>
+<label> <input type="radio" name="p4" value="1">Español</label> <br>
+<label> <input type="radio" name="p4" value="2">Español-Inglés</label> <br>
+<label> <input type="radio" name="p4" value="4">Inglés</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>5.¿Qué te inspira más en un artista?</p>
+<label> <input type="radio" name="p5" value="2">Autenticidad y raíces</label> <br>
+<label> <input type="radio" name="p5" value="4">Empoderamiento y actitud</label> <br>
+<label> <input type="radio" name="p5" value="6">Reinventarse y romper esquemas</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>6.¿Qué ritmo prefieres?</p>
+<label> <input type="radio" name="p6" value="2">Flamenco fusión, reggaetón suave</label> <br>
+<label> <input type="radio" name="p6" value="4">Dancehall, reggaetón duro</label> <br>
+<label> <input type="radio" name="p6" value="6">Hyperpop, electrónica</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>7.¿Tu bebida en una fiesta?</p>
+<label> <input type="radio" name="p7" value="2">Cerveza fría</label> <br>
+<label> <input type="radio" name="p7" value="4">Ron con cola</label> <br>
+<label> <input type="radio" name="p7" value="6">Algo con vodka</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>8.¿Qué redes sociales usas más?</p>
+<label> <input type="radio" name="p8" value="2">Instagram</label> <br>
+<label> <input type="radio" name="p8" value="4">Tiktok</label> <br>
+<label> <input type="radio" name="p8" value="6">X</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>9.¿Qué harías si te rompen el corazón?</p>
+<label> <input type="radio" name="p9" value="2">Escribiría o conduciría sin rumbo</label> <br>
+<label> <input type="radio" name="p9" value="4">Saldría de fiesta</label> <br>
+<label> <input type="radio" name="p9" value="6">Me volvería más fuerte</label> <br>
+        </div>
+
+        <div class="pregunta">
+            <p>10.¿Qué harías si tuvieras fama mundial?</p>
+<label> <input type="radio" name="p10" value="2">Volverías a tu barrio y cuidarías a los tuyos</label> <br>
+<label> <input type="radio" name="p10" value="4">Viajarías, sacarías hits y vivirías a tu bola</label> <br>
+<label> <input type="radio" name="p10" value="6">Revolucionarías el pop con cada cosa que sacas</label> <br>
+        </div>
+        <div class="boton">
+        <button type="button" onclick="verResultado()">Enviar</button>
+        </div>
+    </form>
+    <div id="resultado" class="resultado"></div>
+        </div>
+    <script src="../js/formulario.js"></script>
+</body>
+</html>
